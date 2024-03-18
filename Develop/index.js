@@ -17,7 +17,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'instructions',
+      name: 'installation',
       message: 'What are your installation instructions for your project?',
     },
     {
@@ -27,19 +27,19 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'contribution guidelines',
+      name: 'contributions',
       message: 'What are the contribution guidelines for the project?',
     },
     {
       type: 'input',
-      name: 'testing',
+      name: 'test',
       message: 'What are the testing instructions for the project?',
     },
     {
       type: 'list',
       name: 'license',
       message: 'What kind of license would you like to include?',
-      choices: [''],
+      choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', ],
     },
     {
       type: 'input',
@@ -55,10 +55,26 @@ const questions = [
   
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, error => {
+    if (error) {
+      return console.log(error);
+    }
+    else {
+      console.log("README.md has been successfully generated")
+    }
+  })
+};
+
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  writeToFile()
+  .then((answers) => writeFile('README.md', (answers)))
+  .then(() => console.log('README has been successsfullly generated'))
+  .catch((error) => console.error(error))
+}
+
 
 // Function call to initialize app
 init();
