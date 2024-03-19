@@ -1,14 +1,12 @@
-# this is the title
-
-  license badge here
+# this is title license badge here
 
   ## Description
-  this is a description
+  description here
 
-  ## Table of contents:
-  -[Installation](#installation)
+  ## Table of Contents
+  -[Installation Instruction](#installation)
   -[Usage Information](#usage)
-  -[Contribution Guidelines](#contribution)
+  -[Contribution Guidelines](#contributions)
   -[Test Instructions](#test)
   -[License](#license)
   -[Questions?](#questions)
@@ -17,16 +15,18 @@
   install this
 
   ## Usage
-  use this
+  use 
 
-  ## Contribution
-  contribute please
+  ## Contributions
+  contribute here
 
   ## Test
   test please
 
   ## License
-  Apache License 2.0
+  MIT License
+
+  license link here
 
   ## Questions
   mine username
