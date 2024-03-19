@@ -52,10 +52,11 @@ const questions = [
       message: 'What is your email address?',
      },
 ];
-  
 
+  
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+  //let fileName = 'README.md';
   fs.writeFile(fileName, data, error => {
     if (error) {
       return console.log(error);
@@ -66,15 +67,35 @@ function writeToFile(fileName, data) {
   })
 };
 
+// const answers = inquirer.prompt(questions)
 
 // TODO: Create a function to initialize app
 function init() {
-  writeToFile()
-  .then((answers) => writeFile('README.md', (answers)))
-  .then(() => console.log('README has been successsfullly generated'))
+  inquirer.prompt(questions)
+  .then((answers) => {
+    //console.log('README is being written');
+    console.log(answers);
+    return generateMarkdown(answers);
+  })
+  .then(answers => {
+    writeToFile('README.md', answers);
+    console.log('README has been successfully written')
+  })
   .catch((error) => console.error(error))
 }
 
 
 // Function call to initialize app
 init();
+
+
+// function init() {
+//   inquirer.prompt(questions)
+//   .then((answers) => {
+//     //console.log('README is being written');
+//     console.log(answers);
+//     fs.writeFileSync('README.md', JSON.stringify(answers, markdown, 2))
+//     const markdown = generateMarkdown(answers);
+//   })
+//   .catch((error) => console.error(error))
+// }
