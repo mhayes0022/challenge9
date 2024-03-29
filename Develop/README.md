@@ -1,7 +1,7 @@
-# this is title license badge here
+# title this is [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  description here
+  brief here
 
   ## Table of Contents
   -[Installation Instruction](#installation)
@@ -15,21 +15,21 @@
   install this
 
   ## Usage
-  use 
+  inform here
 
   ## Contributions
-  contribute here
+  guidleines here
 
   ## Test
-  test please
+  test this
 
   ## License
-  MIT License
+  Apache License 2.0
 
   license link here
 
   ## Questions
-  mine username
+  mineusername
   Contact Me:
   email@email.com
 
