@@ -1,7 +1,7 @@
-# title this is [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# This is a Great Title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  brief here
+  This project was just really, really great and I didn't deeply dislike it at all!
 
   ## Table of Contents
   -[Installation Instruction](#installation)
@@ -12,24 +12,28 @@
   -[Questions?](#questions)
 
   ## Installation
-  install this
+  When installing this application: first, try downloading it.
 
   ## Usage
-  inform here
+  When using this application, remember not to feed the bears. This is important.
 
   ## Contributions
-  guidleines here
+  The vague guidelines for this project were really just to make it work and then convince other people that it's working well.
 
   ## Test
-  test this
+  Want to test this? Well then test it
 
   ## License
-  Apache License 2.0
+  MIT License
 
-  license link here
+  https://opensource.org/license/mit
 
   ## Questions
-  mineusername
-  Contact Me:
+  mhayes0022
+  
+  https://github.com/mhayes0022
+
+  Additional questions? Contact Me:
+
   email@email.com
 

@@ -61,7 +61,11 @@ function generateMarkdown(answers) {
 
   ## Questions
   ${answers.username}
-  Contact Me:
+  
+  https://github.com/${answers.username}
+
+  Additional questions? Contact Me:
+
   ${answers.email}
 
 `;
