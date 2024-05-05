@@ -1,7 +1,7 @@
 # This is a Great Title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This project was just really, really great and I didn't deeply dislike it at all!
+  This project was just really, really great and I didn't find it annoying at all!
 
   ## Table of Contents
   -[Installation Instruction](#installation)
@@ -12,7 +12,7 @@
   -[Questions?](#questions)
 
   ## Installation
-  When installing this application: first, try downloading it.
+  When installing this application: first, try downloading it. Ensure that the Inquirer package is downloaded as well.
 
   ## Usage
   When using this application, remember not to feed the bears. This is important.
