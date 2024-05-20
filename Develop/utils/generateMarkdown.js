@@ -1,6 +1,6 @@
 const licenseList = require('./licenseList.js')
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Below is a function that returns a license badge based on which license is passed in
+// If there is no license, it returns an empty string
 function renderLicenseBadge(license) {
   if (license == 'None') {
     return '';
@@ -9,8 +9,8 @@ function renderLicenseBadge(license) {
   return selectedLicense[0].badge;
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Below is a function that returns the license link
+// If there is no license, it returns an empty string
 function renderLicenseLink(license) {
   if (license == 'None') {
     return '';
@@ -19,15 +19,15 @@ function renderLicenseLink(license) {
   return selectedLicense[0].link;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Below is a function that returns the license section of README
+// If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   if (license == 'None') {
     return '';
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Below is a function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.title} ${renderLicenseBadge(answers.license)}
 

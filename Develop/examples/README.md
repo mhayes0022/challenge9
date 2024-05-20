@@ -1,7 +1,7 @@
-# This is a Great Title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# This is the Title [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description
-  This project was just really, really great and I didn't find it annoying at all!
+  a brief description will go here
 
   ## Table of Contents
   -[Installation Instruction](#installation)
@@ -12,21 +12,21 @@
   -[Questions?](#questions)
 
   ## Installation
-  When installing this application: first, try downloading it. Ensure that the Inquirer package is downloaded as well.
+  First, install it
 
   ## Usage
-  When using this application, remember not to feed the bears. This is important.
+  Use it
 
   ## Contributions
-  The vague guidelines for this project were really just to make it work and then convince other people that it's working well.
+  contributers will go here
 
   ## Test
-  Want to test this? Well then test it
+  Test it
 
   ## License
-  MIT License
+  Mozilla Public License 2.0
 
-  https://opensource.org/license/mit
+  https://opensource.org/license/MPL-2.0
 
   ## Questions
   mhayes0022
@@ -35,5 +35,5 @@
 
   Additional questions? Contact Me:
 
-  email@email.com
+  test@emailtest.com
 
